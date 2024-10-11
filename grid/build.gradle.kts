@@ -26,6 +26,10 @@ kotlin {
         }
     }
 
+    wasmJs {
+        browser()
+    }
+
     sourceSets {
         val commonMain by getting {
             dependencies {
